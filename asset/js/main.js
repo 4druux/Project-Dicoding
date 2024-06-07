@@ -11,7 +11,7 @@ const observer = new IntersectionObserver((entries) => {
 const hiddenElements = document.querySelectorAll(".hidden");
 hiddenElements.forEach((el) => observer.observe(el));
 
-// Toggle & Responsive Navigation
+// Burger Menu Responsive
 const navSlide = () => {
   const burger = document.querySelector(".burger");
   const navLists = document.querySelector("nav");
