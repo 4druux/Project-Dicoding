@@ -133,6 +133,20 @@
     font-size: 1rem;
   }
 
+  /* Education */
+  #eduacat h3 {
+    font-size: 1rem;
+  }
+
+  #eduacat h4 {
+    font-size: 0.5rem;
+  }
+
+  .education {
+    display: flex;
+    gap: 3rem;
+  }
+
   /* skills */
   .skills h3 {
     font-size: 1.2rem;
@@ -145,20 +159,6 @@
 
   .skills ul li {
     font-size: 1rem;
-  }
-
-  /* Learning Path */
-  #eduacat h3 {
-    font-size: 1rem;
-  }
-
-  #eduacat h4 {
-    font-size: 0.5rem;
-  }
-
-  .education {
-    display: flex;
-    gap: 3rem;
   }
 
   /* project */
@@ -199,7 +199,7 @@
     padding: 1.4rem 0;
     background-color: #fbfbfb;
     text-align: center;
-    font-size: .8rem;
+    font-size: 0.8rem;
   }
 }
 
